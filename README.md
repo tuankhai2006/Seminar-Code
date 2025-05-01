@@ -64,16 +64,20 @@ CS163-Seminar-Project/
 
 **Example**:
 ```bash
-Enter number of vertices and edges: 5 5
-Enter edges (u v):
+Enter the number of vertices: 5
+Enter the number of edges: 5
+Enter 5 edges (u v pairs, 0-based indexing):
 0 1
 1 2
 2 0
 1 3
 3 4
 Output:
-Articulation Points: 1, 3
-Bridges: (1, 3), (3, 4)
+Articulation Points:
+1 3
+Bridges:
+3 - 4
+1 - 3
 ```
 
 ---
@@ -96,16 +100,20 @@ Bridges: (1, 3), (3, 4)
 
 **Example**:
 ```bash
-Enter number of vertices and edges: 5 5
-Enter edges (u v):
+Enter the number of vertices: 5
+Enter the number of edges: 5
+Enter 5 edges (u v pairs, 0-based indexing):
 0 1
 1 2
 2 0
 1 3
 3 4
 Output:
-Articulation Points: 1, 3
-Bridges: (1, 3), (3, 4)
+Articulation Points:
+1 3
+Bridges:
+3 - 4
+1 - 3
 ```
 
 ---
